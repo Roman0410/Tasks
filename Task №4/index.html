@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div  id='red' onclick="changeColorRed('darkseagreen')"  class="left_side"></div>
+        <div class="right_side">
+            <header class="top">
+                <div id="blue" onclick="changeColorBlue('yellow')" class="head_left"></div>
+                <div id="green" onclick="changeColorGreen('navy')" class="head_right"></div>
+            </header>
+            <main id="purple" onclick="changeColorPurple('burlywood')" class="center"></main>
+            <footer class="bottom">
+                <div id="brown" onclick="changeColorBrown('darkcyan')" class="foot_left"></div>
+                <div id="khaki" onclick="changeColorKhaki('darkorange')" class="foot_right"></div>
+            </footer>
+        </div>
+    </div>
+      
+    <script>
+        function changeColorRed(color){
+            document.getElementById('red').style.background = color; 
+        }
+        function changeColorBlue(color){
+            document.getElementById('blue').style.background = color;
+        }
+        function changeColorGreen(color){
+            document.getElementById('green').style.background = color;
+        }
+        function changeColorPurple(color){
+            document.getElementById('purple').style.background = color;
+        }
+        function changeColorBrown(color){
+            document.getElementById('brown').style.background = color;
+        }
+        function changeColorKhaki(color){
+            document.getElementById('khaki').style.background = color;
+        }
+    </script>
+</body>
+</html>
